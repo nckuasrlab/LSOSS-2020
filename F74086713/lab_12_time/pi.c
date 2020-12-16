@@ -1,26 +1,13 @@
 // **Configuration**
-
-#define ROUNDS 1
-
+#define ROUNDS 100
 #define D_RDTSC 0
-
 #define D_GETTIME 1
-
 // **Configuration**
 
-
-
 #include <stdio.h>
-
 #include <stdlib.h>
-
 #include <stdint.h>
-
 #include <time.h>
-
-
-
-
 
 double get_cpu_rate() {
 
